@@ -8,4 +8,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Tailwind.Extensions.AspNetCore" Version="1.0.0-beta3" />
+  </ItemGroup>
 </Project>
